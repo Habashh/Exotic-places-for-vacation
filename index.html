@@ -17,17 +17,41 @@
 
     <body>
             <div id="warpper">
+                    <nav>
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Lifestyle</a></li>
+                                <li>
+                                    <a href="#">Tours</a></li>
+                                <li>
+                                    <a href="#">Booking</a></li>
+                                <li>
+                                    <a href="#">Destination</a></li>
+                                <li>
+                                    <a href="#">Souvenirs</a></li>
+                                <li>
+                                    <a href="#">Blog</a></li>
+                            </ul>
+                        </nav>
+                        <main>
                 <h1> Where do you want to go?</h1>
                 <h2>Trips, experiences, and places. All in one service.</h2>
-                <div>
+                <section>
                     <input type="text"  name="distintion" placeholder="Destination, city" required>
-                    <input type="month"  name="month" placeholder="Month" required >
-                    <select name="way_mobility">
+                    <input type="text"  name="month" placeholder="Month" required >
+
+                    <select name="way_mobility" id="select">
                             <option value="car trip" selected> Car Trip </option>
                             <option value="bus trip">Bus Trip</option>
                             <option value="train trip">Train Trip</option>
                             </select>
-                    <input type="search"  value="search" style="background-color: #FF6333">      
+
+                    <input type="button"  value="Search" id="button">   
+                </section>
+                </main>   
             </div>
 
     </body>
